@@ -9,3 +9,11 @@
 
 For more info, please checkout the repo to see examples
 [balautil](http://github.com/balaprasanna/balautil)
+
+## How to setup your own package
+pip install --user --upgrade setuptools wheel
+
+python setup.py sdist bdist_wheel
+pip install --user --upgrade twine
+
+twine upload dist/* --verbose
