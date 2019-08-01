@@ -6,6 +6,14 @@ globalheaders = {
 
 ## Common HTTP Util methods
 
+def GetRaw(url, **kwgs):
+    if kwgs.get("headers"):
+        headers = {**globalheaders, **kwgs.get("headers")}
+    else:
+        headers = globalheaders
+    resp = requests.get(url, headers=headers)
+    return resp
+
 def Get(url, **kwgs):
     if kwgs.get("headers"):
         headers = {**globalheaders, **kwgs.get("headers")}
