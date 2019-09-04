@@ -2,3 +2,4 @@ balautil.egg-info/
 build/
 dist/
 .vscode/
+balautil/.ipynb_checkpoints
