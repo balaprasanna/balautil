@@ -6,7 +6,7 @@ with open("README.md") as f:
 
 setup(
     name="balautil",
-    version="0.1.2",
+    version="0.1.3",
     author="Bala Prasanna",
     author_email="balaprasannav2009@gmail.com",
     description="A Common machine learning util Collection package",
