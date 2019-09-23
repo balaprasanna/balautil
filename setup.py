@@ -6,7 +6,7 @@ with open("README.md") as f:
 
 setup(
     name="balautil",
-    version="0.1.3",
+    version="0.1.4",
     author="Bala Prasanna",
     author_email="balaprasannav2009@gmail.com",
     description="A simple utililty package of my everyday task",
